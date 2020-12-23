@@ -1,8 +1,10 @@
-const point = require("./point");
+const { sumPoints, PointType } = require("./point");
 
 describe("sumPoints", () => {
   it("should sum the points", () => {
-    expect(point.sumPoints({ x: 0, y: 1 }, { x: 1, y: 0 })).toEqual({
+    expect(
+      sumPoints({ x: 0, y: 1, type: PointType.Floating }, { x: 1, y: 0 }),
+    ).toEqual({
       x: 1,
       y: 1,
     });

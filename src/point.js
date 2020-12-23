@@ -9,3 +9,9 @@ const sumPoints = (...points) =>
   });
 
 exports.sumPoints = sumPoints;
+
+const PointType = {
+  Floating: /** @type {'floating'} */ ("floating"),
+};
+
+exports.PointType = PointType;
