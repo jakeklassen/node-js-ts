@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "files": [
     "src",
     "types"
@@ -6,8 +7,8 @@
   "scripts": {
     "typecheck": "tsc",
     "build": "tsc --noEmit false --emitDeclarationOnly true",
-    "start": "node src/index.js",
-    "test": "jest",
+    "start": "node src",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "lint": "eslint"
   },
   "devDependencies": {

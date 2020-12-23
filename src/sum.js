@@ -2,7 +2,5 @@
  * Sum a list of numbers
  * @param  {...number} numbers
  */
-const sum = (...numbers) =>
+export const sum = (...numbers) =>
   numbers.reduce((total, number) => total + number, 0);
-
-module.exports = sum;
