@@ -8,9 +8,7 @@
       "name": "Attach",
       "port": 9229,
       "request": "attach",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node"
     },
     {
@@ -19,7 +17,6 @@
       "name": "Jest Current File",
       "program": "${workspaceFolder}/node_modules/.bin/jest",
       "args": ["${relativeFile}", "--forceExit"],
-      "runtimeArgs": ["--experimental-vm-modules"],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
       "smartStep": false,
