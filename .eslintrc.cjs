@@ -1,3 +1,4 @@
+/** @type {import('eslint').ESLint.LintResultData} */
 module.exports = {
   parser: "@typescript-eslint/parser",
   parserOptions: {
