@@ -1,4 +1,4 @@
-import { sum } from "./sum.js";
+import { sum } from "#app/sum.js";
 
 /**
  * Wait for `ms` milliseconds

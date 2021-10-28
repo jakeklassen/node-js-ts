@@ -11,6 +11,9 @@
     "test": "jest",
     "lint": "eslint"
   },
+  "imports": {
+    "#app/*": "./src/*"
+  },
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^5.0.0",

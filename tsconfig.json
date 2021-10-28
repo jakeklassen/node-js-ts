@@ -11,7 +11,11 @@
     "resolveJsonModule": true,
     "noEmit": true,
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "#app/*": ["src/*"]
+    }
   },
   "include": ["src/**/*.mjs", "src/**/*.js", "src/**/*.d.ts"],
   "exclude": ["node_modules"]
