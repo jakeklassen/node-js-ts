@@ -7,22 +7,23 @@
   "scripts": {
     "typecheck": "tsc",
     "build": "tsc --noEmit false --emitDeclarationOnly true",
-    "start": "node src",
-    "test": "jest",
+    "start": "nodemon",
+    "test": "NODE_ENV=test uvu",
     "lint": "eslint"
   },
   "imports": {
     "#app/*": "./src/*"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.1.0",
-    "jest": "^27.0.4",
+    "expect": "^27.3.1",
+    "nodemon": "^2.0.14",
     "prettier": "^2.3.0",
-    "ts-jest": "^27.0.5",
-    "typescript": "^4.3.5"
-  }
+    "typescript": "^4.3.5",
+    "uvu": "^0.5.2"
+  },
+  "dependencies": {}
 }
