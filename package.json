@@ -25,5 +25,8 @@
     "typescript": "^4.3.5",
     "uvu": "^0.5.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "fastify": "^3.22.1"
+  }
 }
