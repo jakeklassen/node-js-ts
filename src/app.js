@@ -6,6 +6,7 @@ import Ajv from "ajv";
 import fastify from "fastify";
 
 /**
+ * App factory
  * @param {object} opts
  * @param {Parameters<import("fastify").fastify>[0]} opts.fastifyServerOptions
  */
