@@ -1,5 +1,6 @@
 /**
- * @type {import("#app/modules/api/date/date.route.types.js").GetDateRouteOptions}
+ * Route handler for `/api`
+ * @type {import("fastify").RouteOptions}
  */
 export const getDateNullRouteOptions = {
   method: "GET",
@@ -17,6 +18,8 @@ export const getDateNullRouteOptions = {
 };
 
 /**
+ * Route handler of `/api/:date`
+ * From what I can tell Fastify's router does not have optional params.
  * @type {import("#app/modules/api/date/date.route.types.js").GetDateRouteOptions}
  */
 export const getDateRouteOptions = {
