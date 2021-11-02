@@ -9,7 +9,7 @@ export const getDateNullRouteOptions = {
 
     const response = {
       unix: Math.floor(date.getTime()),
-      utc: date.toString() !== "Invalid Date" ? date.toUTCString() : null,
+      utc: date.toUTCString(),
     };
 
     reply.send(response);
