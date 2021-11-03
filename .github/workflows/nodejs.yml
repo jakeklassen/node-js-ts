@@ -1,0 +1,20 @@
+name: Node.js CI
+
+on: [push]
+
+jobs:
+  container-job:
+    runs-on: ubuntu-20.04
+    container: mhart/alpine-node:16
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      # Performs a clean installation of all dependencies
+      # in the `package.json` file
+      - name: Install dependencies
+        run: yarn
+
+      - name: Test
+        run: yarn test
