@@ -5,7 +5,7 @@
 export const getDateNullRouteOptions = {
   method: "GET",
   url: "/api",
-  async handler(_request, reply) {
+  handler(_request, reply) {
     const date = new Date();
 
     const response = {
@@ -32,7 +32,7 @@ export const getDateRouteOptions = {
       },
     },
   },
-  async handler(request, reply) {
+  handler(request, reply) {
     let date = new Date(request.params.date);
 
     // If the date is invalid, try as a timestamp
