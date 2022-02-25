@@ -1,8 +1,8 @@
 import expect from "expect";
-import { test } from "uvu";
+import { it } from "mocha";
 import { PointType, sumPoints } from "./point.js";
 
-test("should sum the points", () => {
+it("should sum the points", () => {
   expect(
     sumPoints({ x: 0, y: 1, type: PointType.Floating }, { x: 1, y: 0 }),
   ).toEqual({
@@ -10,5 +10,3 @@ test("should sum the points", () => {
     y: 1,
   });
 });
-
-test.run();

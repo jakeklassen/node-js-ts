@@ -1,9 +1,7 @@
-import { sum } from "./sum.js";
 import expect from "expect";
-import { test } from "uvu";
+import { it } from "mocha";
+import { sum } from "./sum.js";
 
-test("should sum all numbers", () => {
+it("should sum all numbers", () => {
   expect(sum(1, -1, 2)).toBe(2);
 });
-
-test.run();

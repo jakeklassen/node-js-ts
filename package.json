@@ -8,23 +8,24 @@
     "typecheck": "tsc",
     "build": "tsc --noEmit false --emitDeclarationOnly true",
     "start": "nodemon",
-    "test": "NODE_ENV=test uvu",
+    "test": "mocha",
     "lint": "eslint"
   },
   "imports": {
     "#app/*": "./src/*"
   },
   "devDependencies": {
+    "@types/mocha": "^9.1.0",
     "@types/node": "16.11.26",
     "@typescript-eslint/eslint-plugin": "5.12.1",
     "@typescript-eslint/parser": "5.12.1",
     "eslint": "8.9.0",
     "eslint-config-prettier": "8.4.0",
     "expect": "27.5.1",
+    "mocha": "^9.2.1",
     "nodemon": "2.0.15",
     "prettier": "2.5.1",
-    "typescript": "4.5.5",
-    "uvu": "0.5.3"
+    "typescript": "4.5.5"
   },
   "dependencies": {
     "ajv": "6.12.6",
