@@ -29,6 +29,6 @@
   },
   "dependencies": {
     "ajv": "6.12.6",
-    "fastify": "3.27.4"
+    "fastify": "3.28.0"
   }
 }
