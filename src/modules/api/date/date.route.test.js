@@ -1,5 +1,5 @@
 import { build } from "#app/app.js";
-import expect from "expect";
+import { expect } from "expect";
 import { describe, it } from "mocha";
 
 const app = build({ fastifyServerOptions: { logger: false } });

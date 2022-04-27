@@ -1,4 +1,4 @@
-import expect from "expect";
+import { expect } from "expect";
 import { it } from "mocha";
 import { PointType, sumPoints } from "./point.js";
 
