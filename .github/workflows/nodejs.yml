@@ -5,7 +5,7 @@ on: [push]
 jobs:
   container-job:
     runs-on: ubuntu-20.04
-    container: mhart/alpine-node:16
+    container: mhart/alpine-node:18
 
     steps:
       - name: Check out repository code
