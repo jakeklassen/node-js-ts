@@ -3,7 +3,7 @@
     "target": "es2022",
     "lib": ["es2021", "DOM"],
     "moduleResolution": "node",
-    "module": "esnext",
+    "module": "Node16",
     "declarationDir": "types",
     "declaration": true,
     "allowJs": true,
