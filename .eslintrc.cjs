@@ -1,20 +1,22 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    sourceType: "script",
-  },
-  plugins: ["@typescript-eslint/eslint-plugin"],
-  extends: [
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "prettier",
-  ],
   root: true,
   env: {
     node: true,
     jest: true,
   },
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    sourceType: "module",
+    ecmaVersion: 2021,
+  },
+  plugins: ["prettier", "@typescript-eslint/eslint-plugin"],
+  extends: [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
+  ],
+  ignorePatterns: ["!.mocharc.cjs", "node_modules", "build", "dist", "public"],
   rules: {
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
