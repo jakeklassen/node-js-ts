@@ -5,8 +5,13 @@ const app = build({
     logger: true,
   },
 });
-const port = process.env.PORT || 3000;
 
-await app.listen(port).then(() => {
-  console.log(`Server listening on http://localhost:${port} 🚀`);
-});
+const port = parseInt(process.env.PORT ?? "3000");
+
+await app
+  .listen({
+    port,
+  })
+  .then(() => {
+    console.log(`Server listening on http://localhost:${port} 🚀`);
+  });
