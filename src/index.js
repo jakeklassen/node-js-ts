@@ -1,4 +1,5 @@
 import { build } from "#app/app.js";
+import getPort from "get-port";
 
 const app = build({
   fastifyServerOptions: {
@@ -6,7 +7,7 @@ const app = build({
   },
 });
 
-const port = parseInt(process.env.PORT ?? "3000");
+const port = process.env.PORT ? parseInt(process.env.PORT) : await getPort();
 
 await app
   .listen({
