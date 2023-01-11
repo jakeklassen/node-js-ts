@@ -11,10 +11,11 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
 
-      # Performs a clean installation of all dependencies
-      # in the `package.json` file
-      - name: Install dependencies
-        run: npm ci
+      - name: Setup
+        run: npm i -g @antfu/ni
+
+      - name: Install
+        run: nci
 
       - name: Test
-        run: npm run test
+        run: nr test
