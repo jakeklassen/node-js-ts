@@ -1,8 +1,9 @@
 import { build } from "#app/app.js";
 import { expect } from "expect";
-import { describe, it } from "mocha";
+import fastify from "fastify";
+import { describe, it } from "node:test";
 
-const app = build({ fastifyServerOptions: { logger: false } });
+const app = build({ instance: fastify({ logger: false }) });
 
 describe("/api", function () {
   it("should handle 2015-12-25", async () => {

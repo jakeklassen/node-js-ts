@@ -3,16 +3,13 @@ import {
   getDateRouteOptions,
 } from "#app/modules/api/date/date.route.js";
 import Ajv from "ajv";
-import fastify from "fastify";
 
 /**
  * App factory
  * @param {object} opts
- * @param {Parameters<import("fastify").fastify>[0]} opts.fastifyServerOptions
+ * @param {import("fastify").FastifyInstance} opts.instance
  */
-export const build = ({ fastifyServerOptions }) => {
-  const app = fastify(fastifyServerOptions);
-
+export const build = ({ instance: app }) => {
   app.route(getDateRouteOptions);
   app.route(getDateNullRouteOptions);
 

@@ -1,10 +1,11 @@
 import { build } from "#app/app.js";
+import fastify from "fastify";
 import getPort from "get-port";
 
 const app = build({
-  fastifyServerOptions: {
+  instance: fastify({
     logger: true,
-  },
+  }),
 });
 
 const port = process.env.PORT ? parseInt(process.env.PORT) : await getPort();
