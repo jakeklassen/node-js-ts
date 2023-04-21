@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   container-job:
-    runs-on: ubuntu-20.04
-    container: node:18-bullseye-slim
+    runs-on: ubuntu-22.04
+    container: node:20-bullseye-slim
 
     steps:
       - name: Check out repository code
