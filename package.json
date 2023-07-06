@@ -9,19 +9,19 @@
     "build": "tsc --noEmit false --emitDeclarationOnly true",
     "start": "nodemon",
     "test": "node --test",
-    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" .eslintrc.cjs .mocharc.cjs"
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" .eslintrc.cjs"
   },
   "imports": {
     "#app/*": "./src/*"
   },
   "devDependencies": {
-    "@types/node": "^20.3.3",
-    "@typescript-eslint/eslint-plugin": "^5.60.1",
-    "@typescript-eslint/parser": "^5.60.1",
+    "@types/node": "^20.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
     "eslint": "^8.44.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "4.2.1",
-    "expect": "^29.5.0",
+    "expect": "^29.6.1",
     "nodemon": "2.0.22",
     "prettier": "^2.8.8",
     "tap": "^16.3.7",
