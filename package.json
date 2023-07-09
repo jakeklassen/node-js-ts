@@ -22,7 +22,7 @@
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "4.2.1",
     "expect": "^29.6.1",
-    "nodemon": "3.0.0",
+    "nodemon": "3.0.1",
     "prettier": "^2.8.8",
     "tap": "^16.3.7",
     "typescript": "5.1.6",
