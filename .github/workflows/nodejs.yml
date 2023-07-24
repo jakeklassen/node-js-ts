@@ -5,7 +5,7 @@ on: [push]
 jobs:
   container-job:
     runs-on: ubuntu-22.04
-    container: node:22-bullseye-slim
+    container: node:20-bullseye-slim
 
     steps:
       - name: Check out repository code
