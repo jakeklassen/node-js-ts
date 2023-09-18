@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: ^20.6.0
-    version: 20.6.0
+    specifier: ^20.6.2
+    version: 20.6.2
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.7.0
     version: 6.7.0(@typescript-eslint/parser@6.7.0)(eslint@8.49.0)(typescript@5.2.2)
@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^3.0.3
     version: 3.0.3
   tap:
-    specifier: ^18.0.0
-    version: 18.0.0(@types/node@20.6.0)(typescript@5.2.2)
+    specifier: ^18.0.3
+    version: 18.0.3(@types/node@20.6.2)(typescript@5.2.2)
   typescript:
     specifier: 5.2.2
     version: 5.2.2
@@ -192,7 +192,7 @@ packages:
       wrap-ansi-cjs: /wrap-ansi@7.0.0
     dev: true
 
-  /@isaacs/ts-node-temp-fork-for-pr-2009@10.9.1(@types/node@20.6.0)(typescript@5.2.2):
+  /@isaacs/ts-node-temp-fork-for-pr-2009@10.9.1(@types/node@20.6.2)(typescript@5.2.2):
     resolution: {integrity: sha512-MY4rUonz835NsTbd4dcgKZvZFYX9IkLnYFZV9M7GQV8t39fawafLin/Qw6VXD4yfMs4HcBq8P3ddeU0QHMH1YQ==}
     hasBin: true
     peerDependencies:
@@ -211,7 +211,7 @@ packages:
       '@tsconfig/node16': 16.1.1
       '@tsconfig/node18': 18.2.2
       '@tsconfig/node20': 20.1.2
-      '@types/node': 20.6.0
+      '@types/node': 20.6.2
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -247,35 +247,31 @@ packages:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 20.6.0
+      '@types/node': 20.6.2
       '@types/yargs': 17.0.24
       chalk: 4.1.2
     dev: true
 
-  /@jridgewell/resolve-uri@3.1.0:
-    resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==}
+  /@jridgewell/resolve-uri@3.1.1:
+    resolution: {integrity: sha512-dSYZh7HhCDtCKm4QakX0xFpsRDqjjtZf/kjI/v3T3Nwt5r8/qz/M19F9ySyOqU94SXBmeG9ttTul+YnR4LOxFA==}
     engines: {node: '>=6.0.0'}
-    dev: true
-
-  /@jridgewell/sourcemap-codec@1.4.14:
-    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
     dev: true
 
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
     dev: true
 
-  /@jridgewell/trace-mapping@0.3.18:
-    resolution: {integrity: sha512-w+niJYzMHdd7USdiH2U6869nqhD2nbfZXND5Yp93qIbEmnDNk7PD48o+YchRVpzMU7M6jVCbenTR7PA1FLQ9pA==}
+  /@jridgewell/trace-mapping@0.3.19:
+    resolution: {integrity: sha512-kf37QtfW+Hwx/buWGMPcR60iF9ziHa6r/CZJIHbmcm4+0qrXiVdxegAH0F6yddEVQ7zdkjcGCgCzUu+BcbhQxw==}
     dependencies:
-      '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/resolve-uri': 3.1.1
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
   /@jridgewell/trace-mapping@0.3.9:
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
     dependencies:
-      '@jridgewell/resolve-uri': 3.1.0
+      '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
@@ -425,80 +421,80 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@tapjs/after-each@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-1PhsDtW+niaI78StZOCjOZJAK6iAlt2wfD+o9XrFzmFX544vEw2jdKdM9R7KcS1skAn9e84Ur1cIH6HuT1zc9g==}
+  /@tapjs/after-each@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-heNMHQ2Xyu+JWlHlszaAPVU7UYf9tCX0dp3bSDcyi/e+uPwn/z1sdwtA3OE8I+AnINIGgnZ+J17UFHUX+/TcVQ==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       function-loop: 4.0.0
     dev: true
 
-  /@tapjs/after@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-xP8Pjx5epO/XDlewHpjnX23gh2qe6UkT+GHwqcmSYxM9J51eWTd1ukWbGl+29Gw3kZuAMvXjCoNziS/xjkB23A==}
+  /@tapjs/after@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-3uYNL1me4XaPHzLVRIGymF932rXuGoWaIy9u20oMN3kYMoqHNDZNCx2JOO3v3Aq437EfmwK97wG9gcqMFRIiNw==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       is-actual-promise: 1.0.0
     dev: true
 
-  /@tapjs/asserts@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-4sUnbXRrCpF4DeQxfpJnc/4tqrTVn5MOrmEno/a/PJltDf9eWrNu6IJHZwtV8eqaSGAlw+B1JF0PcD5nVySO9g==}
+  /@tapjs/asserts@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-GRTawZuRgKkAO4qW+TyJdUDcfV5Wvrct2vhWNqPa9vjFxZO6ZsUVcVsHHF4079XbSaedIbDp09gNLUs08DYszQ==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       is-actual-promise: 1.0.0
       tcompare: 6.1.0
       trivial-deferred: 2.0.0
     dev: true
 
-  /@tapjs/before-each@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-1FBg2pegw1X2hFcyEVudb9v86WPuf2i3gjkN0F1EcJey1j8jXXBVHj2pKXVn1zeFkoERDD1d5a1l6+y0lsfX4A==}
+  /@tapjs/before-each@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-u+CougEc0PsQNhiZEgLZY5q/WHxss81WXhz+F8pKqfZVZvvNqxImNgfNcor4etiyetF30RxfXQvwy6UXIlcmjA==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       function-loop: 4.0.0
     dev: true
 
-  /@tapjs/before@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-RJn+h+Gyn4GypRuKJEkFOmGFRePH38kVlxQ63mv/z2nuSB7h25PDI9/mV1J7SI0tFLeLoA/u5C2PvdW/B1VxRg==}
+  /@tapjs/before@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-2cGm9ppPttsaKIBZwoeyZddzVN5PNS3iHRtaJk2drdfx0nWibMDUlneGZ46AxXD2BWfs3WWmVXXNe/Rv6zH6XQ==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       is-actual-promise: 1.0.0
     dev: true
 
-  /@tapjs/config@2.0.0(@tapjs/core@1.0.0)(@tapjs/test@1.0.0):
-    resolution: {integrity: sha512-+LmB7oPBDY8g790Thy8IzIKYrs8L7bZB8Z/RTqOp9UDZKqGQxeAK3hJsk6FMgUepoeKu6MtFBSOz2493g6ibew==}
+  /@tapjs/config@2.0.2(@tapjs/core@1.0.2)(@tapjs/test@1.0.2):
+    resolution: {integrity: sha512-n26OulVuSe16AfcmBI1FWlJjeX68jEiEGHHRfdyLsv/eO6955tpWVpspF34CrSjbQdkQu2WEXisshmtvifpKww==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
-      '@tapjs/test': 1.0.0
+      '@tapjs/core': 1.0.2
+      '@tapjs/test': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
-      '@tapjs/test': 1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0)
-      chalk: 5.2.0
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
+      '@tapjs/test': 1.0.2(@tapjs/core@1.0.2)(@types/node@20.6.2)
+      chalk: 5.3.0
       jackspeak: 2.3.3
       polite-json: 4.0.1
       walk-up-path: 3.0.1
     dev: true
 
-  /@tapjs/core@1.0.0(@types/node@20.6.0):
-    resolution: {integrity: sha512-PGfeErS4CwT3oPKUt6XeWFmpTjJwUW6ujveIC0lT0cPb5radWtJYjOZ0VEvLYmJAPVGDgMkOAzZY2D0P+2fS6A==}
+  /@tapjs/core@1.0.2(@types/node@20.6.2):
+    resolution: {integrity: sha512-p2t9eKxhE7QgOps2bpMVMmH3pwWmqAQHAbK0aHS2dJLyLlo/jUpR6WrBz1tmHnpGSoONTcBO8MuxFPT+R8fKAg==}
     engines: {node: '>=16'}
     dependencies:
       '@tapjs/processinfo': 3.1.1
       '@tapjs/stack': 1.0.0
-      '@tapjs/test': 1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0)
+      '@tapjs/test': 1.0.2(@tapjs/core@1.0.2)(@types/node@20.6.2)
       async-hook-domain: 4.0.1
       is-actual-promise: 1.0.0
       jackspeak: 2.3.3
@@ -513,49 +509,49 @@ packages:
       - '@types/node'
     dev: true
 
-  /@tapjs/filter@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-aBJTxdPsdc4eIJC896wT8ppLQ8JRVahSOWKWvZinOnlJqNE4jzZLGUouTLg3NDAZYFUqzqks5PX1WMta4FEy9A==}
+  /@tapjs/filter@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-SKImcj8tlPzF+dTWB/jeyfF9hDPPN6wmIbT3jmIqaLluvn7bzMbaKeZQkaen9s04EkTzNuJn8aeQrruEyCPYrw==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       tcompare: 6.1.0
       trivial-deferred: 2.0.0
     dev: true
 
-  /@tapjs/fixture@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-mnTusprGIIuYGxM/2evhhIXhYff4T74llCfiZTaRwOuka5TZINdsrOmRepvEH6lYP8XXFaPsiRpbP8T7BooNCg==}
+  /@tapjs/fixture@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-EKKAyZv4E7p/NRr6d84W5f9V3z2ZkFxbHeb1Aq1d4CLoSMjqa4l5H67ad/MkDKxtVC7DTMENqkI4o4pNHr93sA==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       mkdirp: 3.0.1
       rimraf: 5.0.1
     dev: true
 
-  /@tapjs/intercept@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-6gcaH4aJsf9EGzQjemyS4jP3yiElHrndPWgtLF7blGlhM0+r9xIJWO0Nr13Q+iPE+BOsBXWzu8gLHKCyczjQOQ==}
+  /@tapjs/intercept@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-POCwj4P3pAcgwRb4M5r7vXTzEYQxmYpyEdvCYrYyiQGrQVgCSb5saWDRdkq1s1lpNiP1pAVG0KGFkL0Zh5ylWg==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/after': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/after': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       '@tapjs/stack': 1.0.0
     dev: true
 
-  /@tapjs/mock@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-0m17min1v9OmV/YMx7Z01pKsUcnVA+svzPXywL6QWCV6KdhacDj78OWGZhSZKQp18N/b4Fof0MFNHbv2fbhu6Q==}
+  /@tapjs/mock@1.0.3(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-TfFwmLzs/D9aJGtUSzs0VUQO9/bYdq3IEjAv526UxvqMKmRi0S1RX2MBObhD4XpfA/miAEcOBahLmKV04CFVfA==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/after': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/after': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       '@tapjs/stack': 1.0.0
-      resolve-import: 1.2.1
+      resolve-import: 1.4.1
       walk-up-path: 3.0.1
     dev: true
 
@@ -569,21 +565,21 @@ packages:
       uuid: 8.3.2
     dev: true
 
-  /@tapjs/reporter@1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0):
-    resolution: {integrity: sha512-ZcC9Iz0xeV2X/0FpcH6uvxBHF5Ht7RVBvmB+MpEtZqlqcHZ54iYIK2Q6Cbe4fdPNIKuIKM1Fu4r0iIo8x1tPjA==}
+  /@tapjs/reporter@1.0.2(@tapjs/core@1.0.2)(@types/node@20.6.2):
+    resolution: {integrity: sha512-Vg2ZcYdTcRDAaq1LV1A6dHAQbZqb2ThAW1yNzifeQFlFllsZ8Ane5ihLZZXBVZ9aPEKfHXimP5z7QYDdCpoacg==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/config': 2.0.0(@tapjs/core@1.0.0)(@tapjs/test@1.0.0)
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
-      '@tapjs/test': 1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0)
-      chalk: 5.2.0
+      '@tapjs/config': 2.0.2(@tapjs/core@1.0.2)(@tapjs/test@1.0.2)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
+      '@tapjs/test': 1.0.2(@tapjs/core@1.0.2)(@types/node@20.6.2)
+      chalk: 5.3.0
       ink: 4.4.1(react@18.2.0)
       ms: 2.1.3
       patch-console: 2.0.0
       prismjs: 1.29.0
-      prismjs-terminal: 1.2.2
+      prismjs-terminal: 1.2.3
       react: 18.2.0
       string-length: 6.0.0
     transitivePeerDependencies:
@@ -596,22 +592,22 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@tapjs/run@1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-gq2ZedrAyTAKj5fNEWfQUjcZwQFMFbvpIX6BoEHhbAwD+J9R9JbvMimsn51z4bzyyDow0wOIk3qlbovGNtzYBw==}
+  /@tapjs/run@1.0.3(@tapjs/core@1.0.2)(@types/node@20.6.2)(typescript@5.2.2):
+    resolution: {integrity: sha512-70Nwi5sJ9HxreIyhMVZT3Udf30pBQbmhCqMALnzPjtCB6QbJSgt7JI1iS4miPmTNAEOvs0qsKUZ7+ZtBDOcYXw==}
     engines: {node: '>=16'}
     hasBin: true
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/after': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/before': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/config': 2.0.0(@tapjs/core@1.0.0)(@tapjs/test@1.0.0)
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/after': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/before': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/config': 2.0.2(@tapjs/core@1.0.2)(@tapjs/test@1.0.2)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       '@tapjs/processinfo': 3.1.1
-      '@tapjs/reporter': 1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0)
-      '@tapjs/spawn': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/stdin': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/test': 1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0)
+      '@tapjs/reporter': 1.0.2(@tapjs/core@1.0.2)(@types/node@20.6.2)
+      '@tapjs/spawn': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/stdin': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/test': 1.0.2(@tapjs/core@1.0.2)(@types/node@20.6.2)
       c8: 8.0.1
       chokidar: 3.5.3
       foreground-child: 3.1.1
@@ -621,14 +617,14 @@ packages:
       opener: 1.5.2
       pacote: 17.0.4
       path-scurry: 1.10.1
-      resolve-import: 1.2.1
+      resolve-import: 1.4.1
       rimraf: 5.0.1
       semver: 7.5.4
       signal-exit: 4.1.0
       tap-yaml: 2.1.1
       tcompare: 6.1.0
       trivial-deferred: 2.0.0
-      ts-node: /@isaacs/ts-node-temp-fork-for-pr-2009@10.9.1(@types/node@20.6.0)(typescript@5.2.2)
+      ts-node: /@isaacs/ts-node-temp-fork-for-pr-2009@10.9.1(@types/node@20.6.2)(typescript@5.2.2)
       which: 4.0.0
     transitivePeerDependencies:
       - '@swc/core'
@@ -643,25 +639,25 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@tapjs/snapshot@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-vIRa4lKoEZ33uaAulXL7iFgzJkaDF9+lXuBf+h8NOjuqvMHBTttuM8QzdJ1jywHFFmcqjqAeOlf2xhtYJLlYbg==}
+  /@tapjs/snapshot@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-JLScYQ6Nzk2UZesfh3xpHx1noeR7TY8hRIF49UySX0seeXnOKOFo2ZwFso2wdhnT3LHW5JopQ82xLQMmlF4c6g==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       is-actual-promise: 1.0.0
       tcompare: 6.1.0
       trivial-deferred: 2.0.0
     dev: true
 
-  /@tapjs/spawn@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-zuRhoWu08zB7kyU9IyQmYqzHmlqkQ9U5RmW50Y7dKo4qR5lg9Vk55r5MxgluLGMotmn21zxfl51VX8MG+ld0eA==}
+  /@tapjs/spawn@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-Tp2WNoV9Q7sa5Gd4045F89W+O0fjjr5YwWrmQeDaJbqB7/tIVY4S5kGU3ffDz0gNFwnJuy+3DJkJpJ1oRpTyaQ==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
     dev: true
 
   /@tapjs/stack@1.0.0:
@@ -672,31 +668,31 @@ packages:
       trivial-deferred: 2.0.0
     dev: true
 
-  /@tapjs/stdin@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-3VhnYvtmT+KH6QzxFo1IjsgztGrxnkAmuiN3rLFLQmUwXSECoSWH5SIWrelgfOZ8iF8zPt3QBWrFu1bmtXQ91g==}
+  /@tapjs/stdin@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-nH3QwlyBQ+5x3H9KLaUbeVeBbhOMrbckgFHwN4RY+toVxGDfZXWJmGkgwS7JQzgJeBNUFRV2I4HixXrI84nZRw==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
     dev: true
 
-  /@tapjs/test@1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0):
-    resolution: {integrity: sha512-j9etHHMhYGKkWoq+xxd4BiR3QUtZsNVS285ejEOCb+qK0g+uBiJmYNTJkKzVu8IzQJFn/TPNrNX8WKFaZcSZ4g==}
+  /@tapjs/test@1.0.2(@tapjs/core@1.0.2)(@types/node@20.6.2):
+    resolution: {integrity: sha512-QWEywo/eKIOnR8jgxdQqYDVUyhP/FMib2W+NE4XnVJ7TV3wePJYt+oG4hTlA1vteyAC+4e9koQRSh4FgfkD2Gw==}
     engines: {node: '>=16'}
     hasBin: true
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
       glob: 10.3.4
       jackspeak: 2.3.3
       mkdirp: 3.0.1
-      resolve-import: 1.2.1
+      resolve-import: 1.4.1
       sync-content: 1.0.2
       tap-parser: 15.0.0
-      ts-node: /@isaacs/ts-node-temp-fork-for-pr-2009@10.9.1(@types/node@20.6.0)(typescript@5.2.2)
-      tshy: 1.0.0
+      ts-node: /@isaacs/ts-node-temp-fork-for-pr-2009@10.9.1(@types/node@20.6.2)(typescript@5.2.2)
+      tshy: 1.1.0
       typescript: 5.2.2
     transitivePeerDependencies:
       - '@swc/core'
@@ -704,14 +700,14 @@ packages:
       - '@types/node'
     dev: true
 
-  /@tapjs/typescript@1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-ZjuSw8ezo93Pe/NQsC3CSfaeCy1i41563R73rKYukVNWjaKFlasDFeIZ3m1OE5tvdIsFu/RpncELEbhTnM1Whw==}
+  /@tapjs/typescript@1.0.2(@tapjs/core@1.0.2)(@types/node@20.6.2)(typescript@5.2.2):
+    resolution: {integrity: sha512-DANVs7POsU4hqeZs2f2DZDr2gV8fe5fdOjDHL2wTa5iIPvuJLYM6Z3u88/J4/51ppF0mb+D/F/f3yrEwnwa+mw==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
-      ts-node: /@isaacs/ts-node-temp-fork-for-pr-2009@10.9.1(@types/node@20.6.0)(typescript@5.2.2)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
+      ts-node: /@isaacs/ts-node-temp-fork-for-pr-2009@10.9.1(@types/node@20.6.2)(typescript@5.2.2)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -719,13 +715,13 @@ packages:
       - typescript
     dev: true
 
-  /@tapjs/worker@1.0.0(@tapjs/core@1.0.0):
-    resolution: {integrity: sha512-6BPRSwQgj3VrfeAgW+vj9TBHB1YEXJKpk3xM1ltqV/ziRIBJqwtFCEo/zZaXDRJpcfqMpRhKP7y3cIQfBwG9MA==}
+  /@tapjs/worker@1.0.2(@tapjs/core@1.0.2):
+    resolution: {integrity: sha512-BMhB/7372mwn2wx0xTxyFf8Z5XbXDc4o6JJVe1lYeYO142Fm1NIk5938LCnbynZLQ5ICBXGR/S+c/FW3k0zeWw==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@tapjs/core': 1.0.0
+      '@tapjs/core': 1.0.2
     dependencies:
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
     dev: true
 
   /@tootallnate/once@2.0.0:
@@ -782,8 +778,8 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
 
-  /@types/node@20.6.0:
-    resolution: {integrity: sha512-najjVq5KN2vsH2U/xyh2opaSEz6cZMR2SetLIlxlj08nOcmPOemJmUK2o4kUzfLqfrWE0PIrNeE16XhYDd3nqg==}
+  /@types/node@20.6.2:
+    resolution: {integrity: sha512-Y+/1vGBHV/cYk6OI1Na/LHzwnlNCAfU3ZNGrc1LdRe/LAIbdDPTTv/HU3M7yXN448aTVDq3eKRm2cg7iKLb8gw==}
     dev: true
 
   /@types/semver@7.5.1:
@@ -2179,7 +2175,7 @@ packages:
       '@alcalzone/ansi-tokenize': 0.1.3
       ansi-escapes: 6.2.0
       auto-bind: 5.0.1
-      chalk: 5.2.0
+      chalk: 5.3.0
       cli-boxes: 3.0.0
       cli-cursor: 4.0.0
       cli-truncate: 3.1.0
@@ -2289,7 +2285,7 @@ packages:
   /is-lower-case@2.0.2:
     resolution: {integrity: sha512-bVcMJy4X5Og6VZfdOZstSexlEy20Sr0k/p/b2IlQJlfdKAQuMpiv5w2Ccxb8sKdRUNAG1PnHVHjFSdRDVS6NlQ==}
     dependencies:
-      tslib: 2.6.0
+      tslib: 2.6.2
     dev: true
 
   /is-number@7.0.0:
@@ -2315,7 +2311,7 @@ packages:
   /is-upper-case@2.0.2:
     resolution: {integrity: sha512-44pxmxAvnnAOwBg4tHPnkfvgjPwbc5QIsSstNU+YcJ1ovxVzCWpSGosPJOZh/a1tdl81fbgnLc9LLv+x2ywbPQ==}
     dependencies:
-      tslib: 2.6.0
+      tslib: 2.6.2
     dev: true
 
   /is-wsl@2.2.0:
@@ -2410,7 +2406,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.6.0
+      '@types/node': 20.6.2
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.11
@@ -3077,11 +3073,11 @@ packages:
       react-is: 18.2.0
     dev: true
 
-  /prismjs-terminal@1.2.2:
-    resolution: {integrity: sha512-4R8ub11GPQzsmLjFbOulmEho30GvhrRPsQUCz9cZd7yM9JKBItGeF7nCpQtByyC2tGxBHA+gU3WHGXECNTOG/g==}
+  /prismjs-terminal@1.2.3:
+    resolution: {integrity: sha512-xc0zuJ5FMqvW+DpiRkvxURlz98DdfDsZcFHdO699+oL+ykbFfgI7O4VDEgUyc07BSL2NHl3zdb8m/tZ/aaqUrw==}
     engines: {node: '>=16'}
     dependencies:
-      chalk: 5.2.0
+      chalk: 5.3.0
       prismjs: 1.29.0
       string-length: 6.0.0
     dev: true
@@ -3240,8 +3236,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /resolve-import@1.2.1:
-    resolution: {integrity: sha512-R47UhJFdzvF0mwvA+5hU8WTvZf+MD0e32CmiT6tIDEEx/E1szafehYYlS4JiGepWNjdEFUfiUVyPGbkccRb0ug==}
+  /resolve-import@1.4.1:
+    resolution: {integrity: sha512-afPxGmDnvJ4Atfg5mc+JFhxI4Rp3VnxFTsAa4WRbblyhDFYg5ZFyhqtrQ/AL29te1TK2ADcbAHX7uKK7Bwcjaw==}
     engines: {node: '>=16'}
     dependencies:
       glob: 10.3.4
@@ -3607,28 +3603,28 @@ packages:
       yaml-types: 0.3.0(yaml@2.3.2)
     dev: true
 
-  /tap@18.0.0(@types/node@20.6.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-0ktZ2hb+B6yTmBeMAT33rMJ+1numqO6qjNUZ32H2FyiPy9aIOZKqIRT5dNbjdeYN0x9zDN5qG4Ocy9OBqKxmRA==}
+  /tap@18.0.3(@types/node@20.6.2)(typescript@5.2.2):
+    resolution: {integrity: sha512-WSadvUZZ2TjGWL+hQY8nl7Y96JoR1MTlZPrSYBdqB728ZRmhulhKLXIV5sidKS3nkTnKwzNRdu+wSAPm++NjeQ==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      '@tapjs/after': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/after-each': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/asserts': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/before': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/before-each': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/core': 1.0.0(@types/node@20.6.0)
-      '@tapjs/filter': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/fixture': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/intercept': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/mock': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/run': 1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0)(typescript@5.2.2)
-      '@tapjs/snapshot': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/spawn': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/stdin': 1.0.0(@tapjs/core@1.0.0)
-      '@tapjs/test': 1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0)
-      '@tapjs/typescript': 1.0.0(@tapjs/core@1.0.0)(@types/node@20.6.0)(typescript@5.2.2)
-      '@tapjs/worker': 1.0.0(@tapjs/core@1.0.0)
+      '@tapjs/after': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/after-each': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/asserts': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/before': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/before-each': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/core': 1.0.2(@types/node@20.6.2)
+      '@tapjs/filter': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/fixture': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/intercept': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/mock': 1.0.3(@tapjs/core@1.0.2)
+      '@tapjs/run': 1.0.3(@tapjs/core@1.0.2)(@types/node@20.6.2)(typescript@5.2.2)
+      '@tapjs/snapshot': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/spawn': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/stdin': 1.0.2(@tapjs/core@1.0.2)
+      '@tapjs/test': 1.0.2(@tapjs/core@1.0.2)(@types/node@20.6.2)
+      '@tapjs/typescript': 1.0.2(@tapjs/core@1.0.2)(@types/node@20.6.2)(typescript@5.2.2)
+      '@tapjs/worker': 1.0.2(@tapjs/core@1.0.2)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -3718,14 +3714,15 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /tshy@1.0.0:
-    resolution: {integrity: sha512-8uE1Mn224oHEdg5BOCgNZ36z1fZ2WA1iuuKX89GQujS1STlq8LCni5SzdAz4H1FL5Zfj9P7DQ1RCEJhPGAR91A==}
+  /tshy@1.1.0:
+    resolution: {integrity: sha512-L5XGMaaP+e7qD6foNDyRp0YqSly05O2mnTAqf9K5V2GU1sFMxWy046MO2Hyavi7bLTws0z3WSKdzc7Y8Kuy7Kg==}
     engines: {node: 16 >=16.17 || 18 >=18.16.0 || >=20.6.1}
     hasBin: true
     dependencies:
       chalk: 5.3.0
       foreground-child: 3.1.1
       mkdirp: 3.0.1
+      resolve-import: 1.4.1
       rimraf: 5.0.1
       sync-content: 1.0.2
       typescript: 5.2.2
@@ -3733,6 +3730,10 @@ packages:
 
   /tslib@2.6.0:
     resolution: {integrity: sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==}
+    dev: true
+
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
   /tuf-js@2.1.0:
@@ -3827,7 +3828,7 @@ packages:
     resolution: {integrity: sha512-6z3GW9x8G1gd+JIIgQQQxXuiJtCXeAjp6RaPEPLv62mH3iPHPxV6W3robxtCzNErRo6ZwTmzWhsbNvjyEBKzKA==}
     engines: {node: '>=10.12.0'}
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.18
+      '@jridgewell/trace-mapping': 0.3.19
       '@types/istanbul-lib-coverage': 2.0.4
       convert-source-map: 1.9.0
     dev: true
