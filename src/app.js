@@ -13,7 +13,7 @@ export const build = ({ instance: app }) => {
   app.route(getDateRouteOptions);
   app.route(getDateNullRouteOptions);
 
-  const ajv = new Ajv({
+  const ajv = new Ajv.default({
     removeAdditional: false,
     useDefaults: true,
     coerceTypes: true,

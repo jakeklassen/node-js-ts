@@ -1,6 +1,6 @@
 /**
  * Sum a list of points
- * @param {...import("./point.type").Point} points
+ * @param {...import("./point.type.js").Point} points
  */
 export const sumPoints = (...points) =>
   points.reduce((sum, point) => ({ x: sum.x + point.x, y: sum.y + point.y }), {
