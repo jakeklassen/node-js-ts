@@ -4,8 +4,11 @@ on: [push]
 
 jobs:
   container-job:
-    runs-on: ubuntu-22.04
-    container: node:22-bullseye-slim
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node: ['18.x', '20.x', '22.x']
+        os: [ubuntu-latest]
 
     steps:
       - name: Check out repository code
