@@ -4,8 +4,6 @@
     "lib": ["es2021", "DOM"],
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
-    "declarationDir": "types",
-    "declaration": true,
     "allowJs": true,
     "checkJs": true,
     "resolveJsonModule": true,
@@ -17,6 +15,5 @@
       "#app/*": ["src/*"]
     }
   },
-  "include": ["src/**/*.mjs", "src/**/*.js", "src/**/*.d.ts"],
   "exclude": ["node_modules"]
 }

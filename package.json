@@ -6,7 +6,6 @@
   ],
   "scripts": {
     "typecheck": "tsc",
-    "build": "tsc --noEmit false --emitDeclarationOnly true",
     "start": "nodemon",
     "test": "node --test",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" .eslintrc.cjs"
