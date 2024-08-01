@@ -8,19 +8,25 @@
     "typecheck": "tsc",
     "start": "nodemon",
     "test": "node --test",
-    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" .eslintrc.cjs"
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" eslint.config.mjs"
   },
   "imports": {
     "#app/*": "./src/*"
   },
   "devDependencies": {
-    "@types/node": "^20.14.12",
-    "@typescript-eslint/eslint-plugin": "^7.16.0",
-    "@typescript-eslint/parser": "^7.16.0",
-    "eslint": "^8.57.0",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.8.0",
+    "@types/eslint": "^9.6.0",
+    "@types/eslint__eslintrc": "^2.1.2",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.8.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
     "expect": "^29.7.0",
+    "globals": "^15.9.0",
     "nodemon": "3.1.4",
     "prettier": "^3.2.5",
     "tap": "^21.0.0",
