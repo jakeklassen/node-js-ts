@@ -38,5 +38,5 @@
     "fastify": "4.28.1",
     "get-port": "^7.0.0"
   },
-  "packageManager": "pnpm@9.8.0"
+  "packageManager": "pnpm@9.9.0"
 }
