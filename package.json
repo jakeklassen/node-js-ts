@@ -8,7 +8,8 @@
     "typecheck": "tsc",
     "start": "nodemon",
     "test": "node --test",
-    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" eslint.config.mjs"
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" eslint.config.mjs",
+    "lint:inspect": "pnpm dlx @eslint/config-inspector@latest"
   },
   "imports": {
     "#app/*": "./src/*"
