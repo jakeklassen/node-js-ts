@@ -27,8 +27,11 @@ export const getDateRouteOptions = {
   url: "/api/:date",
   schema: {
     params: {
-      date: {
-        type: ["string", "null"],
+      type: "object",
+      properties: {
+        date: {
+          type: ["string", "null"],
+        },
       },
     },
   },
