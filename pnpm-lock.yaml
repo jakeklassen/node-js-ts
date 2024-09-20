@@ -58,8 +58,8 @@ importers:
         specifier: ^15.9.0
         version: 15.9.0
       nodemon:
-        specifier: 3.1.5
-        version: 3.1.5
+        specifier: 3.1.6
+        version: 3.1.6
       prettier:
         specifier: ^3.2.5
         version: 3.3.3
@@ -1403,8 +1403,8 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     hasBin: true
 
-  nodemon@3.1.5:
-    resolution: {integrity: sha512-V5UtfYc7hjFD4SI3EzD5TR8ChAHEZ+Ns7Z5fBk8fAbTVAj+q3G+w7sHJrHxXBkVn6ApLVTljau8wfHwqmGUjMw==}
+  nodemon@3.1.6:
+    resolution: {integrity: sha512-C8ymJbXpTTinxjWuMfMxw0rZhTn/r7ypSGldQyqPEgDEaVwAthqC0aodsMwontnAInN9TuPwRLeBoyhmfv+iSA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -3578,7 +3578,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  nodemon@3.1.5:
+  nodemon@3.1.6:
     dependencies:
       chokidar: 3.6.0
       debug: 4.3.7(supports-color@5.5.0)
