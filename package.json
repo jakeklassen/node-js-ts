@@ -27,7 +27,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
     "expect": "^29.7.0",
-    "globals": "^15.9.0",
+    "globals": "^15.10.0",
     "nodemon": "3.1.7",
     "prettier": "^3.2.5",
     "tap": "^21.0.0",
