@@ -19,10 +19,10 @@ importers:
         version: 7.1.0
     devDependencies:
       '@eslint/eslintrc':
-        specifier: ^3.1.0
+        specifier: ^3.2.0
         version: 3.2.0
       '@eslint/js':
-        specifier: ^9.12.0
+        specifier: ^9.15.0
         version: 9.15.0
       '@types/eslint':
         specifier: ^9.6.1
@@ -43,7 +43,7 @@ importers:
         specifier: ^8.12.2
         version: 8.14.0(eslint@9.15.0)(typescript@5.6.3)
       eslint:
-        specifier: ^9.12.0
+        specifier: ^9.15.0
         version: 9.15.0
       eslint-config-prettier:
         specifier: 9.1.0
