@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2022",
-    "lib": ["es2021", "DOM"],
+    "target": "es2024",
+    "lib": ["ES2024", "DOM"],
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
     "allowJs": true,
