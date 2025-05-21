@@ -5,8 +5,8 @@ import { describe, it } from "node:test";
 
 const app = build({ instance: fastify({ logger: false }) });
 
-describe("/api", function () {
-  it("should handle 2015-12-25", async () => {
+void describe("/api", function () {
+  void it("should handle 2015-12-25", async () => {
     const dateParam = "2015-12-25";
 
     const response = await app.inject({
@@ -27,7 +27,7 @@ describe("/api", function () {
     expect(body.utc).toBe(new Date(dateParam).toUTCString());
   });
 
-  it("should handle 1451001600000", async () => {
+  void it("should handle 1451001600000", async () => {
     const dateParam = 1451001600000;
 
     const response = await app.inject({
@@ -48,7 +48,7 @@ describe("/api", function () {
     expect(body.utc).toBe(new Date(dateParam).toUTCString());
   });
 
-  it("should error on bad input", async () => {
+  void it("should error on bad input", async () => {
     const dateParam = "nope";
 
     const response = await app.inject({
@@ -68,7 +68,7 @@ describe("/api", function () {
     expect(body.error).toBe("Invalid date");
   });
 
-  it("should use current date if data param is not provided", async () => {
+  void it("should use current date if data param is not provided", async () => {
     const response = await app.inject({
       method: "GET",
       url: `/api`,
