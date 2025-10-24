@@ -10,10 +10,7 @@
     "noEmit": true,
     "strict": true,
     "esModuleInterop": true,
-    "baseUrl": ".",
-    "paths": {
-      "#app/*": ["src/*"]
-    }
+    "baseUrl": "."
   },
   "exclude": ["node_modules"]
 }
