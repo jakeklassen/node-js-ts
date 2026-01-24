@@ -9,8 +9,7 @@
     "resolveJsonModule": true,
     "noEmit": true,
     "strict": true,
-    "esModuleInterop": true,
-    "baseUrl": "."
+    "esModuleInterop": true
   },
   "exclude": ["node_modules"]
 }
