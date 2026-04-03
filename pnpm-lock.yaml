@@ -29,7 +29,7 @@ importers:
         version: 9.6.1
       '@types/node':
         specifier: ^24.10.9
-        version: 24.12.0
+        version: 24.12.2
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.54.0
         version: 8.58.0(@typescript-eslint/parser@8.58.0(eslint@10.1.0)(typescript@6.0.2))(eslint@10.1.0)(typescript@6.0.2)
@@ -492,8 +492,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@24.12.0':
-    resolution: {integrity: sha512-GYDxsZi3ChgmckRT9HPU0WEhKLP08ev/Yfcq2AstjrDASOYCSXeyjDsHg4v5t4jOj7cyDX3vmprafKlWIG9MXQ==}
+  '@types/node@24.12.2':
+    resolution: {integrity: sha512-A1sre26ke7HDIuY/M23nd9gfB+nrmhtYyMINbjI1zHJxYteKR6qSMX56FsmjMcDb3SMcjJg5BiRRgOCC/yBD0g==}
 
   '@types/stack-utils@2.0.3':
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
@@ -1370,7 +1370,7 @@ snapshots:
 
   '@jest/pattern@30.0.1':
     dependencies:
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
       jest-regex-util: 30.0.1
 
   '@jest/schemas@30.0.5':
@@ -1383,7 +1383,7 @@ snapshots:
       '@jest/schemas': 30.0.5
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
       '@types/yargs': 17.0.35
       chalk: 4.1.2
 
@@ -1548,7 +1548,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@24.12.0':
+  '@types/node@24.12.2':
     dependencies:
       undici-types: 7.16.0
 
@@ -2028,7 +2028,7 @@ snapshots:
   jest-mock@30.3.0:
     dependencies:
       '@jest/types': 30.3.0
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
       jest-util: 30.3.0
 
   jest-regex-util@30.0.1: {}
@@ -2036,7 +2036,7 @@ snapshots:
   jest-util@30.3.0:
     dependencies:
       '@jest/types': 30.3.0
-      '@types/node': 24.12.0
+      '@types/node': 24.12.2
       chalk: 4.1.2
       ci-info: 4.4.0
       graceful-fs: 4.2.11
