@@ -34,7 +34,7 @@
     "nodemon": "3.1.14",
     "oxfmt": "^0.46.0",
     "oxlint": "^1.59.0",
-    "oxlint-tsgolint": "^0.21.0",
+    "oxlint-tsgolint": "^0.22.0",
     "prettier": "^3.8.1",
     "typescript": "6.0.3",
     "typescript-eslint": "^8.54.0"
