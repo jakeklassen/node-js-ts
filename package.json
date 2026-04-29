@@ -24,8 +24,8 @@
     "@eslint/js": "^10.0.0",
     "@types/eslint": "^9.6.1",
     "@types/node": "^24.12.2",
-    "@typescript-eslint/eslint-plugin": "^8.54.0",
-    "@typescript-eslint/parser": "^8.54.0",
+    "@typescript-eslint/eslint-plugin": "^8.59.1",
+    "@typescript-eslint/parser": "^8.59.1",
     "eslint": "^10.2.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.5",
@@ -37,6 +37,6 @@
     "oxlint-tsgolint": "^0.22.0",
     "prettier": "^3.8.1",
     "typescript": "6.0.3",
-    "typescript-eslint": "^8.54.0"
+    "typescript-eslint": "^8.59.1"
   }
 }
