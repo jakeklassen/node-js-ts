@@ -32,7 +32,7 @@
     "expect": "^30.4.1",
     "globals": "^17.2.0",
     "nodemon": "3.1.14",
-    "oxfmt": "^0.55.0",
+    "oxfmt": "^0.56.0",
     "oxlint": "^1.69.0",
     "oxlint-tsgolint": "^0.23.0",
     "prettier": "^3.8.4",
