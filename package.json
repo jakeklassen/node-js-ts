@@ -16,17 +16,17 @@
   },
   "dependencies": {
     "ajv": "^8.12.0",
-    "fastify": "5.8.5",
+    "fastify": "5.9.0",
     "get-port": "^7.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^10.0.0",
     "@types/eslint": "^9.6.1",
-    "@types/node": "^26.0.0",
+    "@types/node": "^26.0.1",
     "@typescript-eslint/eslint-plugin": "^8.61.0",
     "@typescript-eslint/parser": "^8.61.0",
-    "eslint": "^10.5.0",
+    "eslint": "^10.6.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.6",
     "expect": "^30.4.1",
@@ -35,7 +35,7 @@
     "oxfmt": "^0.56.0",
     "oxlint": "^1.69.0",
     "oxlint-tsgolint": "^0.23.0",
-    "prettier": "^3.8.4",
+    "prettier": "^3.9.3",
     "typescript": "6.0.3",
     "typescript-eslint": "^8.61.0"
   }
