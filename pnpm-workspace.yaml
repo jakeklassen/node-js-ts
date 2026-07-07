@@ -1,3 +1,8 @@
+# Reject any dependency version published within the last 24 hours (1440
+# minutes) as a supply-chain cooldown. This was previously pnpm's implicit
+# default; set explicitly so the policy is visible and version-independent.
+minimumReleaseAge: 1440
+
 allowBuilds:
   "@alcalzone/ansi-tokenize": true
   "@babel/code-frame": true
