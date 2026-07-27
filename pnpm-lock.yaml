@@ -50,7 +50,7 @@ importers:
         version: 30.4.1
       globals:
         specifier: ^17.2.0
-        version: 17.7.0
+        version: 17.8.0
       nodemon:
         specifier: 3.1.14
         version: 3.1.14
@@ -71,7 +71,7 @@ importers:
         version: 7.0.2
       typescript-eslint:
         specifier: ^8.62.1
-        version: 8.64.0(eslint@10.7.0(supports-color@5.5.0))(typescript@7.0.2)
+        version: 8.64.0(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2)
 
 packages:
 
@@ -973,8 +973,8 @@ packages:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
     engines: {node: '>=18'}
 
-  globals@17.7.0:
-    resolution: {integrity: sha512-Czmyns5dUsq4seFBR/Kdydhmo8y9kC79hiSkPn0YcGtNnYWnrgt0vjrSjx9tspoDGWm2CMarffRuLjM4xUz8xg==}
+  globals@17.8.0:
+    resolution: {integrity: sha512-Zz/LMDZScFmkakeL2cTHzf+PbWKdpU3uclqkZT7TjDG58j5WPt0PpA+n9uPI24fZtlw07q0OtEi84K+umsRzqQ==}
     engines: {node: '>=18'}
 
   graceful-fs@4.2.11:
@@ -1700,7 +1700,7 @@ snapshots:
       '@typescript-eslint/parser': 8.64.0(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2)
       '@typescript-eslint/scope-manager': 8.64.0
       '@typescript-eslint/type-utils': 8.64.0(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2)
-      '@typescript-eslint/utils': 8.64.0(eslint@10.7.0(supports-color@5.5.0))(typescript@7.0.2)
+      '@typescript-eslint/utils': 8.64.0(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2)
       '@typescript-eslint/visitor-keys': 8.64.0
       eslint: 10.7.0(supports-color@5.5.0)
       ignore: 7.0.6
@@ -1744,7 +1744,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.64.0
       '@typescript-eslint/typescript-estree': 8.64.0(supports-color@5.5.0)(typescript@7.0.2)
-      '@typescript-eslint/utils': 8.64.0(eslint@10.7.0(supports-color@5.5.0))(typescript@7.0.2)
+      '@typescript-eslint/utils': 8.64.0(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2)
       debug: 4.4.3(supports-color@5.5.0)
       eslint: 10.7.0(supports-color@5.5.0)
       ts-api-utils: 2.5.0(typescript@7.0.2)
@@ -1769,7 +1769,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/utils@8.64.0(eslint@10.7.0(supports-color@5.5.0))(typescript@7.0.2)':
+  '@typescript-eslint/utils@8.64.0(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2)':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.7.0(supports-color@5.5.0))
       '@typescript-eslint/scope-manager': 8.64.0
@@ -2150,7 +2150,7 @@ snapshots:
 
   globals@14.0.0: {}
 
-  globals@17.7.0: {}
+  globals@17.8.0: {}
 
   graceful-fs@4.2.11: {}
 
@@ -2530,12 +2530,12 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  typescript-eslint@8.64.0(eslint@10.7.0(supports-color@5.5.0))(typescript@7.0.2):
+  typescript-eslint@8.64.0(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2):
     dependencies:
       '@typescript-eslint/eslint-plugin': 8.64.0(@typescript-eslint/parser@8.64.0(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2))(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2)
       '@typescript-eslint/parser': 8.64.0(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2)
       '@typescript-eslint/typescript-estree': 8.64.0(supports-color@5.5.0)(typescript@7.0.2)
-      '@typescript-eslint/utils': 8.64.0(eslint@10.7.0(supports-color@5.5.0))(typescript@7.0.2)
+      '@typescript-eslint/utils': 8.64.0(eslint@10.7.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@7.0.2)
       eslint: 10.7.0(supports-color@5.5.0)
       typescript: 7.0.2
     transitivePeerDependencies:
