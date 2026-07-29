@@ -1,6 +1,5 @@
 /**
  * Sum a list of numbers
- * @param  {...number} numbers
  */
-export const sum = (...numbers) =>
+export const sum = (...numbers: readonly number[]) =>
   numbers.reduce((total, number) => total + number, 0);

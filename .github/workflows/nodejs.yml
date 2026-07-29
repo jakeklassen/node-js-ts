@@ -3,22 +3,29 @@ name: Node.js CI
 on: [push]
 
 jobs:
-  container-job:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        node: ["22.x", "24.x"]
-        os: [ubuntu-24.04]
+  ci:
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Check out repository code
         uses: actions/checkout@v7
 
-      - name: Setup
-        run: npm i -g @antfu/ni
+      # Installs the node and pnpm versions pinned in mise.toml, so CI and local
+      # development cannot drift apart.
+      - name: Set up mise
+        uses: jdx/mise-action@v4
 
       - name: Install
-        run: nci
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Format
+        run: pnpm format:check
 
       - name: Test
-        run: nr test
+        run: pnpm test

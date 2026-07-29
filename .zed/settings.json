@@ -1,0 +1,73 @@
+// Folder-specific settings
+//
+// For a full list of overridable settings, and general information on
+// folder-specific settings, see the documentation:
+// https://zed.dev/docs/configuring-zed#settings-files
+{
+  "lsp": {
+    // oxlint LSP (oxc Zed extension). `typeAware` is off by default, so the
+    // server only reports the syntactic rules and the type-aware ones
+    // (strict-boolean-expressions, no-unsafe-assignment,
+    // prefer-readonly-parameter-types, ...) never reach the editor — which is
+    // why Zed showed 3 of the 16 findings that `pnpm lint` reports.
+    //
+    // Requires oxlint-tsgolint (a devDependency here); the extension resolves
+    // the tsgolint binary itself. Zed counterpart of `oxc.typeAware: true`.
+    "oxlint": {
+      "initialization_options": {
+        "settings": {
+          "run": "onType",
+          "fixKind": "safe_fix",
+          "typeAware": true,
+          "unusedDisableDirectives": "deny"
+        }
+      }
+    }
+  },
+
+  // Format on save with oxfmt, the same formatter `pnpm format` and the CI
+  // `format:check` step use, so the editor cannot disagree with CI.
+  //
+  // `prettier.allowed: false` matters: Zed bundles its own prettier and would
+  // otherwise use it for JS/TS. This repo deleted .prettierrc along with the
+  // prettier dependency, so that bundled copy would format to prettier's
+  // defaults rather than .oxfmtrc.json — and CI would then reject the result.
+  //
+  // Languages listed are the ones oxfmt actually claims here (verified: it
+  // formats .yaml/.md/.json as well as .ts). Add TSX/JSX/CSS if this repo ever
+  // grows them, otherwise those files would silently go unformatted.
+  "languages": {
+    "TypeScript": {
+      "format_on_save": "on",
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+      "prettier": { "allowed": false },
+      "code_actions_on_format": { "source.fixAll.oxc": true }
+    },
+    "JavaScript": {
+      "format_on_save": "on",
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+      "prettier": { "allowed": false },
+      "code_actions_on_format": { "source.fixAll.oxc": true }
+    },
+    "JSON": {
+      "format_on_save": "on",
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+      "prettier": { "allowed": false }
+    },
+    "JSONC": {
+      "format_on_save": "on",
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+      "prettier": { "allowed": false }
+    },
+    "YAML": {
+      "format_on_save": "on",
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+      "prettier": { "allowed": false }
+    },
+    "Markdown": {
+      "format_on_save": "on",
+      "formatter": [{ "language_server": { "name": "oxfmt" } }],
+      "prettier": { "allowed": false }
+    }
+  }
+}

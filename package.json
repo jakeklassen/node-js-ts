@@ -12,31 +12,21 @@
     "start": "nodemon",
     "test": "node --test",
     "lint": "pnpm oxlint --type-aware",
-    "lint:inspect": "pnpm dlx @eslint/config-inspector@latest"
+    "format": "pnpm oxfmt",
+    "format:check": "pnpm oxfmt --check"
   },
   "dependencies": {
-    "ajv": "^8.12.0",
-    "fastify": "5.10.0",
-    "get-port": "^7.0.0"
+    "@hono/node-server": "^2.0.12",
+    "get-port": "^7.0.0",
+    "hono": "^4.12.32"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^10.0.0",
-    "@types/eslint": "^9.6.1",
-    "@types/node": "^26.1.0",
-    "@typescript-eslint/eslint-plugin": "^8.62.1",
-    "@typescript-eslint/parser": "^8.62.1",
-    "eslint": "^10.6.0",
-    "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-prettier": "5.5.6",
+    "@types/node": "^26.1.2",
     "expect": "^30.4.1",
-    "globals": "^17.2.0",
     "nodemon": "3.1.14",
-    "oxfmt": "^0.59.0",
-    "oxlint": "^1.72.0",
-    "oxlint-tsgolint": "^0.25.0",
-    "prettier": "^3.9.4",
-    "typescript": "7.0.2",
-    "typescript-eslint": "^8.62.1"
+    "oxfmt": "^0.61.0",
+    "oxlint": "^1.76.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "typescript": "7.0.2"
   }
 }

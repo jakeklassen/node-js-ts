@@ -4,13 +4,24 @@
     "lib": ["ES2024", "DOM"],
     "moduleResolution": "NodeNext",
     "module": "NodeNext",
-    "allowJs": true,
-    "checkJs": true,
     "resolveJsonModule": true,
     "noEmit": true,
     "strict": true,
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+
+    // Requested explicitly rather than relying on a dependency to drag node's
+    // types in as a side effect of its own `node:*` imports.
+    "types": ["node"],
+
+    // Node executes TypeScript by stripping types, with no type information and
+    // no specifier rewriting. So imports must name the file that exists on disk
+    // (`./sum.ts`, not `./sum.js`), type-only imports must say `import type` to
+    // be erasable, and constructs needing type-directed emit (enum, namespace,
+    // parameter properties, decorators) are rejected at typecheck time.
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true
   },
   "exclude": ["node_modules"]
 }

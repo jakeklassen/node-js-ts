@@ -1,6 +1,6 @@
 import { expect } from "expect";
 import test from "node:test";
-import { PointType, sumPoints } from "./point.js";
+import { PointType, sumPoints } from "./point.ts";
 
 void test("should sum the points", () => {
   expect(
