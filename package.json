@@ -16,7 +16,7 @@
     "format:check": "pnpm oxfmt --check"
   },
   "dependencies": {
-    "@hono/node-server": "^2.0.12",
+    "@hono/node-server": "^2.1.0",
     "get-port": "^7.0.0",
     "hono": "^4.12.32"
   },
@@ -24,8 +24,8 @@
     "@types/node": "^26.1.2",
     "expect": "^30.4.1",
     "nodemon": "3.1.14",
-    "oxfmt": "^0.61.0",
-    "oxlint": "^1.76.0",
+    "oxfmt": "^0.62.0",
+    "oxlint": "^1.77.0",
     "oxlint-tsgolint": "^7.0.2001",
     "typescript": "7.0.2"
   }
