@@ -21,7 +21,7 @@
     "hono": "^4.13.3"
   },
   "devDependencies": {
-    "@types/node": "^26.2.0",
+    "@types/node": "^26.4.0",
     "expect": "^30.4.1",
     "nodemon": "3.1.14",
     "oxfmt": "^0.65.0",
