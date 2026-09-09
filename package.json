@@ -21,11 +21,11 @@
     "hono": "^4.13.7"
   },
   "devDependencies": {
-    "@types/node": "^26.4.0",
+    "@types/node": "^26.5.0",
     "expect": "^30.4.1",
     "nodemon": "3.1.14",
     "oxfmt": "^0.67.0",
-    "oxlint": "^1.80.0",
+    "oxlint": "^1.82.0",
     "oxlint-tsgolint": "^7.0.2001",
     "typescript": "7.0.2"
   }
