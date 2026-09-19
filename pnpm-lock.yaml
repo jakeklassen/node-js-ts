@@ -23,7 +23,7 @@ importers:
         version: 26.6.1
       expect:
         specifier: ^30.4.1
-        version: 30.5.1
+        version: 30.5.2
       nodemon:
         specifier: 3.1.14
         version: 3.1.14
@@ -60,8 +60,8 @@ packages:
     resolution: {integrity: sha512-OsqBjHXCn8cadasoAZBP6nWYvMsRhpMzGXTpxJ5aO04NlbdhIz+FVe3q49l0AwVhsz/cEmIpBes6gAFl1/dWQg==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
 
-  '@jest/expect-utils@30.5.1':
-    resolution: {integrity: sha512-WcRWhHQdTMRDpyWKZ/6MINBmovI7zeD+bL8wFjCncRV3NQOwKy1X45IfyblfHR4k/XciIlNEdFL9QjFO+HNKOg==}
+  '@jest/expect-utils@30.5.2':
+    resolution: {integrity: sha512-d/HOLSrJUlBIl6n3LzOa7cjW3xdePm5H5gQw2lixZ/0h157l9sw3mLblzFqnPcTbhDzhRQdBOX3A3KcG73nm5Q==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
 
   '@jest/get-type@30.5.0':
@@ -558,8 +558,8 @@ packages:
     resolution: {integrity: sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==}
     engines: {node: '>=8'}
 
-  expect@30.5.1:
-    resolution: {integrity: sha512-m8YrYgvKe9+9gEnWEuKz+qCGfHqkrff7PPfyDnOFkjsfYRKqiYyOxDFMFieCGAuhtk/VNm63tvNgKZVzVy+Hvg==}
+  expect@30.5.2:
+    resolution: {integrity: sha512-0LNuMvs8/5mRYhnCR4k+lGV7fqPMs6Bnksda4S3zsCUmdxBpAn4zU4NNzXdq1pMKe/H4W5t/zVIDSJ/H3e0vDA==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
 
   fill-range@7.1.1:
@@ -613,20 +613,20 @@ packages:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
 
-  jest-diff@30.5.1:
-    resolution: {integrity: sha512-e3cNNMpv8Kh20MjjphTXs+3Vz7DQyLM1nft7KJhnh46atFhjVJRa+0Hq0beywuwsACtMQUBihQkFl8zxb7gt1Q==}
+  jest-diff@30.5.2:
+    resolution: {integrity: sha512-rBtHnI6BWTiWj3lM7fOLVfChx7R9B0u9VV3PRHawKs79x6ZjW1QoSrKenaigNGWlvhtoi2BqvDbABDie+Os3xQ==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
 
-  jest-matcher-utils@30.5.1:
-    resolution: {integrity: sha512-aroZVqwOz/wC2y6pC+obgFWKV9viaQWQTTSB6W5H55+egtUczIfXR/rxExTv92xD/ADYwpqaYfVWx1aqwKg7FA==}
+  jest-matcher-utils@30.5.2:
+    resolution: {integrity: sha512-lFkB365PTIHOhPzwrb9T6gvlDnPpOZ7/c3ewOKKB7bzztqjVrtlyRL2MkyfJXpyY2u2SKw001JKrTx14fBUFcQ==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
 
   jest-message-util@30.5.1:
     resolution: {integrity: sha512-UdQlLdd9wL/Ys7xRErckqwD6wPlSZYueosSWuHc1r2ztGLwlgPvtSJq2+BPEgaEY13WLvfFbmhTj8pba0Sd1jg==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
 
-  jest-mock@30.5.1:
-    resolution: {integrity: sha512-9fVjc3leUpGID2/by/LU4Dvdcp7PFh9LlxS3QRWK3ABm+KtvEVsG/AEGeLY3gKOZsjkBxyfwGltoAVlW7dygHg==}
+  jest-mock@30.5.2:
+    resolution: {integrity: sha512-KTHb37Fhj8xY8qPFvTFaFJHcdsumQp+ExsUlgoX232Agmc706gagBs53+CYvulV7MVQo9AgXOUxsqzzVBoJlrA==}
     engines: {node: ^18.14.0 || ^20.0.0 || ^22.0.0 || >=24.0.0}
 
   jest-regex-util@30.5.0:
@@ -778,7 +778,7 @@ snapshots:
 
   '@jest/diff-sequences@30.5.0': {}
 
-  '@jest/expect-utils@30.5.1':
+  '@jest/expect-utils@30.5.2':
     dependencies:
       '@jest/get-type': 30.5.0
 
@@ -1075,13 +1075,13 @@ snapshots:
 
   escape-string-regexp@2.0.0: {}
 
-  expect@30.5.1:
+  expect@30.5.2:
     dependencies:
-      '@jest/expect-utils': 30.5.1
+      '@jest/expect-utils': 30.5.2
       '@jest/get-type': 30.5.0
-      jest-matcher-utils: 30.5.1
+      jest-matcher-utils: 30.5.2
       jest-message-util: 30.5.1
-      jest-mock: 30.5.1
+      jest-mock: 30.5.2
       jest-util: 30.5.1
 
   fill-range@7.1.1:
@@ -1119,18 +1119,18 @@ snapshots:
 
   is-number@7.0.0: {}
 
-  jest-diff@30.5.1:
+  jest-diff@30.5.2:
     dependencies:
       '@jest/diff-sequences': 30.5.0
       '@jest/get-type': 30.5.0
       chalk: 4.1.2
       pretty-format: 30.5.1
 
-  jest-matcher-utils@30.5.1:
+  jest-matcher-utils@30.5.2:
     dependencies:
       '@jest/get-type': 30.5.0
       chalk: 4.1.2
-      jest-diff: 30.5.1
+      jest-diff: 30.5.2
       pretty-format: 30.5.1
 
   jest-message-util@30.5.1:
@@ -1146,9 +1146,9 @@ snapshots:
       slash: 3.0.0
       stack-utils: 2.0.6
 
-  jest-mock@30.5.1:
+  jest-mock@30.5.2:
     dependencies:
-      '@jest/expect-utils': 30.5.1
+      '@jest/expect-utils': 30.5.2
       '@jest/types': 30.5.1
       '@types/node': 26.6.1
       jest-util: 30.5.1
