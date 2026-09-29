@@ -13,7 +13,7 @@ jobs:
       # Installs the node and pnpm versions pinned in mise.toml, so CI and local
       # development cannot drift apart.
       - name: Set up mise
-        uses: jdx/mise-action@v4
+        uses: jdx/mise-action@v5
 
       - name: Install
         run: pnpm install --frozen-lockfile
