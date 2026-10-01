@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: ^2.1.1
-        version: 2.1.3(hono@4.13.11)
+        version: 2.1.3(hono@4.13.12)
       get-port:
         specifier: ^7.2.0
         version: 7.2.0
       hono:
         specifier: ^4.13.7
-        version: 4.13.11
+        version: 4.13.12
     devDependencies:
       '@types/node':
         specifier: ^26.5.1
@@ -590,8 +590,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  hono@4.13.11:
-    resolution: {integrity: sha512-/SMX/RQNJn7oNmFwH6DtwDqcrzZU2otm1FD6OJe2cWF6cfy/F8hq0XVBv7xW3FTJshRQwuBnXHDq2kNsdZnshg==}
+  hono@4.13.12:
+    resolution: {integrity: sha512-6E2QDAc9Ick9Sq77ZrGS/dk2WUYni91aufTw6LJKpV7w8kW5/GxVUc650FOADOmlwg3K+f7Pun6XlV+pYmW6gw==}
     engines: {node: '>=16.9.0'}
 
   ignore-by-default@1.0.1:
@@ -772,9 +772,9 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@hono/node-server@2.1.3(hono@4.13.11)':
+  '@hono/node-server@2.1.3(hono@4.13.12)':
     dependencies:
-      hono: 4.13.11
+      hono: 4.13.12
 
   '@jest/diff-sequences@30.5.0': {}
 
@@ -1103,7 +1103,7 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  hono@4.13.11: {}
+  hono@4.13.12: {}
 
   ignore-by-default@1.0.1: {}
 
